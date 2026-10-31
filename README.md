@@ -4,7 +4,8 @@
 
 Machine Learning project, Ironhack Data Analytics Bootcamp (individual project, October 2026).
 
-📊 **Presentation:** [Google Slides](https://docs.google.com/presentation/d/1PxnFf6c5tsSbt9eFr47TGJNjy0-b8Drr/edit?usp=sharing)
+📊 **Presentation:** [Google Slides](https://docs.google.com/presentation/d/1PxnFf6c5tsSbt9eFr47TGJNjy0-b8Drr/edit?usp=sharing)  
+📋 **Project board:** [Trello](https://trello.com/b/VHfKSApJ/credit-card-fraud-detection-mlproject)
 
 ---
 
@@ -32,7 +33,7 @@ The goal is to predict whether a credit card transaction is **fraud (1)** or **n
 | `used_pin_number` | PIN used (0/1) |
 | `online_order` | Online order (0/1) |
 
-> The CSV file is not included in this repository because of its size. Download it from Kaggle and place it next to the notebooks.
+> The dataset `card_transdata.csv` is included in this repository (original source: Kaggle, link above).
 
 ## Repository structure
 
@@ -95,7 +96,7 @@ Python · pandas · NumPy · scikit-learn · Matplotlib · seaborn · Jupyter No
 
 ## How to run
 
-1. Download `card_transdata.csv` from Kaggle and place it in the same folder as the notebooks.
+1. Clone the repository (`card_transdata.csv` is in the same folder as the notebooks).
 2. Install the libraries: `pip install pandas numpy scikit-learn matplotlib seaborn`
 3. Run `01_data_exploration.ipynb`, then `02_feature_engineering_and_modeling.ipynb`.
 
